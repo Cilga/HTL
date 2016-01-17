@@ -1,14 +1,15 @@
+import java.util.ArrayList;
 
 public class Spieler {
 
 	protected int id;
-	protected int[] hand = new int[]{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1};
-	
+	public ArrayList<Karte> hand = new ArrayList<Karte>();
+
 	public Spieler(){
-		
+
 	}
 	public Spieler(int id){
-		
+
 		this.id = id;	
 	}
 	public int getId() {
@@ -16,8 +17,5 @@ public class Spieler {
 	}
 	public void setId(int id) {
 		this.id = id;
-	}
-	public int[] getHand() {
-		return hand;
 	}
 }

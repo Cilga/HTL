@@ -1,4 +1,3 @@
-
 public class Croupier extends Spieler {
 
 	public Croupier() {
